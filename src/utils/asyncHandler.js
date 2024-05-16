@@ -5,3 +5,5 @@ const asyncHandler = (requestHandler) => {
 };
 
 export { asyncHandler };
+
+// Using this middleware function helps handle async requests in a clean and simple way, reducing the need to write boilerplate error handling for each Express route.
